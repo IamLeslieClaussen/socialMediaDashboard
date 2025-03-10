@@ -4,7 +4,7 @@ export default defineConfig({
   base: "/socialMediaDashboard/",
   plugins: [tailwindcss()],
   build: {
-    outDir: "docs",
+    outDir: "dist",
     cssCodeSplit: true,
     rollupOptions: {
       output: {
