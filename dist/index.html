@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social media dashboard with theme switcher</title>
+    <script type="module" crossorigin src="/socialMediaDashboard/assets/js/index-2nnx1ngL.js"></script>
+    <link rel="stylesheet" crossorigin href="/socialMediaDashboard/assets/css/index-BNxEqKVo.css">
+  </head>
+  <body
+    class="min-h-screen w-full bg-white flex justify-center items-center text-[14px] font-inter text-black px-[24px] dark:bg-dark-theme-very-dark-blue dark:text-white"
+  >
+    <div class="sm:h-auto w-min-[326px] flex flex-col w-max-[1110px]">
+      <header
+        class="flex w-full flex-col mb-[41px] mt-[36px] relative lg:flex-row lg:justify-between"
+      >
+        <div class="h-auto mb-[24px]">
+          <h1 class="text-2xl font-bold text-black dark:text-white">
+            Social Media Dashboard
+          </h1>
+          <p class="text-dark-theme-desaturated-blue font-bold">
+            Total Followers: 23,004
+          </p>
+        </div>
+
+        <div
+          class="w-full h-[1px] bg-dark-theme-desaturated-blue lg:hidden absolute top-17 left-0"
+        ></div>
+
+        <div
+          class="flex justify-between mt-[16px] font-bold lg:justify-end lg:gap-[13px]"
+        >
+          <p class="text-dark-theme-desaturated-blue">Dark mode</p>
+          <div class="relative">
+            <input type="checkbox" id="check" class="sr-only peer" />
+            <label
+              for="check"
+              class="w-[48px] h-[24px] rounded-full cursor-pointer bg-primary-toggle block peer-checked:bg-gradient-to-r from-[hsl(210,78%,56%)] to-[hsl(146,68%,55%)]"
+            >
+            </label>
+            <span
+              class="w-[18px] h-[18px] bg-white absolute rounded-full right-1 top-[3px] peer-checked:bg-dark-theme-dark-desaturated-blue peer-checked:translate-x-[-22px] transition-all cursor-pointer"
+            >
+            </span>
+          </div>
+        </div>
+      </header>
+      <!--social grid-->
+      <div
+        class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mx-auto gap-[16px] mb-[46px]"
+      >
+        <!--social facebook-->
+        <div class="w-[326px] md:w-[290px] lg:w-[255px]">
+          <div class="w-full h-[4px] bg-primary-facebook rounded-t-2xl"></div>
+          <div
+            class="flex flex-col justify-center items-center gap-[30px] h-auto bg-white dark:bg-dark-theme-dark-desaturated-blue"
+          >
+            <div class="flex mt-[32px] gap-[8px] items-center">
+              <div class="w-[20px] h-[20px]">
+                <img
+                  src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='20'%20height='20'%3e%3cpath%20fill='%23178FF5'%20d='M18.896%200H1.104C.494%200%200%20.494%200%201.104v17.793C0%2019.506.494%2020%201.104%2020h9.58v-7.745H8.076V9.237h2.606V7.01c0-2.583%201.578-3.99%203.883-3.99%201.104%200%202.052.082%202.329.119v2.7h-1.598c-1.254%200-1.496.597-1.496%201.47v1.928h2.989l-.39%203.018h-2.6V20h5.098c.608%200%201.102-.494%201.102-1.104V1.104C20%20.494%2019.506%200%2018.896%200z'/%3e%3c/svg%3e"
+                  alt="image"
+                  class="w-full"
+                />
+              </div>
+              <div>
+                <p
+                  class="text-[12px] text-dark-theme-desaturated-blue font-bold"
+                >
+                  @nathanf
+                </p>
+              </div>
+            </div>
+            <div>
+              <div class="flex flex-col items-center mb-[25px]">
+                <p class="text-[56px] font-bold">1987</p>
+                <p
+                  class="uppercase tracking-[5px] text-dark-theme-desaturated-blue"
+                >
+                  followers
+                </p>
+              </div>
+
+              <div class="flex items-center justify-center gap-[8px]">
+                <img
+                  src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='8'%20height='4'%3e%3cpath%20fill='%231EB589'%20fill-rule='evenodd'%20d='M0%204l4-4%204%204z'/%3e%3c/svg%3e"
+                  alt="arrow-up"
+                  class="block h-[8px] w-[10px] -translate-y-6"
+                />
+
+                <p
+                  class="mb-[48px] leading-tight font-bold text-primary-lime-green"
+                >
+                  12 Today
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--social twitter-->
+        <div class="w-min-[326px] md:w-[290px] lg:w-[255px]">
+          <div class="w-full h-[4px] bg-primary-twitter rounded-t-2xl"></div>
+          <div
+            class="flex flex-col justify-center items-center gap-[30px] h-auto bg-white dark:bg-dark-theme-dark-desaturated-blue"
+          >
+            <div class="flex mt-[32px] gap-[8px] items-center">
+              <div class="w-[20px] h-[20px]">
+                <img
+                  src="/socialMediaDashboard/images/icon-twitter.svg"
+                  alt="image"
+                  class="w-full"
+                />
+              </div>
+              <div>
+                <p
+                  class="text-[12px] text-dark-theme-desaturated-blue font-bold"
+                >
+                  @nathanf
+                </p>
+              </div>
+            </div>
+            <div>
+              <div class="flex flex-col items-center mb-[25px]">
+                <p class="text-[56px] font-bold">1044</p>
+                <p
+                  class="uppercase tracking-[5px] text-dark-theme-desaturated-blue"
+                >
+                  followers
+                </p>
+              </div>
+
+              <div class="flex items-center justify-center gap-[8px]">
+                <img
+                  src="/socialMediaDashboard/images/icon-up.svg"
+                  alt="arrow-up"
+                  class="block h-[8px] w-[10px] -translate-y-6"
+                />
+
+                <p
+                  class="mb-[48px] leading-tight font-bold text-primary-lime-green"
+                >
+                  99 Today
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--social instagram-->
+        <div class="w-min-[326px] md:w-[290px] lg:w-[255px]">
+          <div
+            class="w-full h-[4px] rounded-t-2xl bg-gradient-to-r from-[hsl(37,97%,70%)] to-[hsl(329,70%,58%)]"
+          ></div>
+          <div
+            class="flex flex-col justify-center items-center gap-[30px] h-auto bg-white dark:bg-dark-theme-dark-desaturated-blue"
+          >
+            <div class="flex mt-[32px] gap-[8px] items-center">
+              <div class="w-[20px] h-[20px]">
+                <img
+                  src="/socialMediaDashboard/images/icon-instagram.svg"
+                  alt="image"
+                  class="w-full"
+                />
+              </div>
+              <div>
+                <p
+                  class="text-[12px] text-dark-theme-desaturated-blue font-bold"
+                >
+                  @realnathanf
+                </p>
+              </div>
+            </div>
+            <div>
+              <div class="flex flex-col items-center mb-[25px]">
+                <p class="text-[56px] font-bold">11K</p>
+                <p
+                  class="uppercase tracking-[5px] text-dark-theme-desaturated-blue"
+                >
+                  followers
+                </p>
+              </div>
+
+              <div class="flex items-center justify-center gap-[8px]">
+                <img
+                  src="/socialMediaDashboard/images/icon-up.svg"
+                  alt="arrow-up"
+                  class="block h-[8px] w-[10px] -translate-y-6"
+                />
+
+                <p
+                  class="mb-[48px] leading-tight font-bold text-primary-lime-green"
+                >
+                  1099 Today
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--social youtube-->
+        <div class="w-min-[326px] md:w-[290px] lg:w-[255px]">
+          <div
+            class="w-full h-[4px] bg-primary-lime-bright-red rounded-t-2xl"
+          ></div>
+          <div
+            class="flex flex-col justify-center items-center gap-[30px] h-auto bg-white dark:bg-dark-theme-dark-desaturated-blue"
+          >
+            <div class="flex mt-[32px] gap-[8px] items-center">
+              <div class="w-[20px] h-[20px]">
+                <img
+                  src="/socialMediaDashboard/images/icon-youtube.svg"
+                  alt="image"
+                  class="w-full"
+                />
+              </div>
+              <div>
+                <p
+                  class="text-[12px] text-dark-theme-desaturated-blue font-bold"
+                >
+                  @Nathan F.
+                </p>
+              </div>
+            </div>
+            <div>
+              <div class="flex flex-col items-center mb-[25px]">
+                <p class="text-[56px] font-bold">8239</p>
+                <p
+                  class="uppercase tracking-[5px] text-dark-theme-desaturated-blue"
+                >
+                  subscribers
+                </p>
+              </div>
+
+              <div class="flex items-center justify-center gap-[8px]">
+                <img
+                  src="/socialMediaDashboard/images/icon-down.svg"
+                  alt="arrow-up"
+                  class="block h-[8px] w-[10px] -translate-y-6"
+                />
+
+                <p
+                  class="mb-[48px] leading-tight font-bold text-primary-lime-bright-red"
+                >
+                  144 Today
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--overview-today-->
+      <div class="min-w-[326px] max-w-[1110px] mx-auto mb-20">
+        <h2 class="text-[24px] mb-[27px]">Overview - Today</h2>
+        <!--overview-grid-->
+        <div
+          class="grid gap-[16px] sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mx-auto"
+        >
+          <!--facebook unit-->
+          <div
+            class="py-[27px] px-[24px] bg-white w-min-[326px] md:w-[290px] lg:w-[255px] dark:bg-dark-theme-dark-desaturated-blue"
+          >
+            <div class="flex justify-between items-center mb-[32px]">
+              <h3 class="font-bold text-dark-theme-desaturated-blue">
+                Page Views
+              </h3>
+              <div>
+                <img src="/socialMediaDashboard/images/icon-facebook.svg" alt="facebook-icon" />
+              </div>
+            </div>
+            <div class="flex justify-between items-center">
+              <p class="text-[32px] font-bold">87</p>
+              <div class="flex items-center gap-[8px]">
+                <img src="/socialMediaDashboard/images/icon-up.svg" alt="up-icon" />
+                <p class="text-primary-lime-green">3%</p>
+              </div>
+            </div>
+          </div>
+          <!--facebook unit-->
+          <div
+            class="py-[27px] px-[24px] bg-white w-min-[326px] md:w-[290px] lg:w-[255px] dark:bg-dark-theme-dark-desaturated-blue"
+          >
+            <div class="flex justify-between items-center mb-[32px]">
+              <h3 class="font-bold text-dark-theme-desaturated-blue">
+                Page Views
+              </h3>
+              <div>
+                <img src="/socialMediaDashboard/images/icon-facebook.svg" alt="facebook-icon" />
+              </div>
+            </div>
+            <div class="flex justify-between items-center">
+              <p class="text-[32px] font-bold">52</p>
+              <div class="flex items-center gap-[8px]">
+                <img src="/socialMediaDashboard/images/icon-down.svg" alt="up-icon" />
+                <p class="text-primary-lime-bright-red">2%</p>
+              </div>
+            </div>
+          </div>
+
+          <!--Instagram unit-->
+          <div
+            class="py-[27px] px-[24px] bg-white w-min-[326px] md:w-[290px] lg:w-[255px] dark:bg-dark-theme-dark-desaturated-blue"
+          >
+            <div class="flex justify-between items-center mb-[32px]">
+              <h3 class="font-bold text-dark-theme-desaturated-blue">
+                Page Views
+              </h3>
+              <div>
+                <img src="/socialMediaDashboard/images/icon-instagram.svg" alt="instagram-icon" />
+              </div>
+            </div>
+            <div class="flex justify-between items-center">
+              <p class="text-[32px] font-bold">5462</p>
+              <div class="flex items-center gap-[8px]">
+                <img src="/socialMediaDashboard/images/icon-up.svg" alt="up-icon" />
+                <p class="text-primary-lime-green">2257%</p>
+              </div>
+            </div>
+          </div>
+          <!--Instagram unit-->
+          <div
+            class="py-[27px] px-[24px] bg-white w-min-[326px] md:w-[290px] lg:w-[255px] dark:bg-dark-theme-dark-desaturated-blue"
+          >
+            <div class="flex justify-between items-center mb-[32px]">
+              <h3 class="font-bold text-dark-theme-desaturated-blue">
+                Page Views
+              </h3>
+              <div>
+                <img src="/socialMediaDashboard/images/icon-instagram.svg" alt="instagram-icon" />
+              </div>
+            </div>
+            <div class="flex justify-between items-center">
+              <p class="text-[32px] font-bold">52k</p>
+              <div class="flex items-center gap-[8px]">
+                <img src="/socialMediaDashboard/images/icon-up.svg" alt="up-icon" />
+                <p class="text-primary-lime-green">1375%</p>
+              </div>
+            </div>
+          </div>
+
+          <!--Twitter unit-->
+          <div
+            class="py-[27px] px-[24px] bg-white w-min-[326px] md:w-[290px] lg:w-[255px] dark:bg-dark-theme-dark-desaturated-blue"
+          >
+            <div class="flex justify-between items-center mb-[32px]">
+              <h3 class="font-bold text-dark-theme-desaturated-blue">
+                Page Views
+              </h3>
+              <div>
+                <img src="/socialMediaDashboard/images/icon-twitter.svg" alt="facebook-icon" />
+              </div>
+            </div>
+            <div class="flex justify-between items-center">
+              <p class="text-[32px] font-bold">117</p>
+              <div class="flex items-center gap-[8px]">
+                <img src="/socialMediaDashboard/images/icon-up.svg" alt="up-icon" />
+                <p class="text-primary-lime-green">303%</p>
+              </div>
+            </div>
+          </div>
+          <!--Twitter unit-->
+          <div
+            class="py-[27px] px-[24px] bg-white w-min-[326px] md:w-[290px] lg:w-[255px] dark:bg-dark-theme-dark-desaturated-blue"
+          >
+            <div class="flex justify-between items-center mb-[32px]">
+              <h3 class="font-bold text-dark-theme-desaturated-blue">
+                Page Views
+              </h3>
+              <div>
+                <img
+                  src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='20'%20height='17'%3e%3cpath%20fill='%231DA1F2'%20d='M20%201.924a8.192%208.192%200%2001-2.357.646A4.11%204.11%200%200019.448.3a8.22%208.22%200%2001-2.606.996A4.096%204.096%200%200013.847%200c-2.65%200-4.596%202.472-3.998%205.037A11.648%2011.648%200%20011.392.752a4.109%204.109%200%20001.27%205.478%204.086%204.086%200%2001-1.858-.513C.76%207.616%202.122%209.395%204.095%209.79a4.113%204.113%200%2001-1.853.07%204.106%204.106%200%20003.833%202.849A8.25%208.25%200%20010%2014.41a11.616%2011.616%200%20006.29%201.843c7.618%200%2011.922-6.434%2011.663-12.205A8.354%208.354%200%200020%201.924z'/%3e%3c/svg%3e"
+                  alt="facebook-icon"
+                />
+              </div>
+            </div>
+            <div class="flex justify-between items-center">
+              <p class="text-[32px] font-bold">507</p>
+              <div class="flex items-center gap-[8px]">
+                <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='8'%20height='4'%3e%3cpath%20fill='%231EB589'%20fill-rule='evenodd'%20d='M0%204l4-4%204%204z'/%3e%3c/svg%3e" alt="up-icon" />
+                <p class="text-primary-lime-green">553%</p>
+              </div>
+            </div>
+          </div>
+          <!--Twitter unit-->
+          <div
+            class="py-[27px] px-[24px] bg-white w-min-[326px] md:w-[290px] lg:w-[255px] dark:bg-dark-theme-dark-desaturated-blue"
+          >
+            <div class="flex justify-between items-center mb-[32px]">
+              <h3 class="font-bold text-dark-theme-desaturated-blue">
+                Page Views
+              </h3>
+              <div>
+                <img src="/socialMediaDashboard/images/icon-youtube.svg" alt="facebook-icon" />
+              </div>
+            </div>
+            <div class="flex justify-between items-center">
+              <p class="text-[32px] font-bold">107</p>
+              <div class="flex items-center gap-[8px]">
+                <img src="/socialMediaDashboard/images/icon-down.svg" alt="down-icon" />
+                <p class="text-primary-lime-bright-red">19%</p>
+              </div>
+            </div>
+          </div>
+          <!--Twitter unit-->
+          <div
+            class="py-[27px] px-[24px] bg-white w-min-[326px] md:w-[290px] lg:w-[255px] dark:bg-dark-theme-dark-desaturated-blue"
+          >
+            <div class="flex justify-between items-center mb-[32px]">
+              <h3 class="font-bold text-dark-theme-desaturated-blue">
+                Page Views
+              </h3>
+              <div>
+                <img src="/socialMediaDashboard/images/icon-youtube.svg" alt="facebook-icon" />
+              </div>
+            </div>
+            <div class="flex justify-between items-center">
+              <p class="text-[32px] font-bold">1407</p>
+              <div class="flex items-center gap-[8px]">
+                <img src="/socialMediaDashboard/images/icon-down.svg" alt="up-icon" />
+                <p class="text-primary-lime-bright-red">12%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
